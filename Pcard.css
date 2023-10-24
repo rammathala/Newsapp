@@ -6,7 +6,7 @@
        width: 100%;
        height: 100%;
       padding: 2em 5em;
-     
+      transition: 0.3s;
    }
    .Pcards >img{
       width: 100%;
@@ -16,15 +16,18 @@
        display: flex;
        text-align: left !important;
        font-size: 40px;
-       font-family: "Merriweather",serif;
+       font-family: 'Noto Sans Telugu';
        font-weight: bold;
+       transition: 0.3s;
+       letter-spacing: 1px;
    
    }
-   .subtitle{
+
+   .Pcards >h3{
        text-align: left;
        font-size: 20px;
        margin: 0;
-       font-weight: 500;
+       letter-spacing: 1px;
    }
    .date{
        text-align: left;
@@ -36,8 +39,8 @@
        line-height: 2em;
        text-align:justify;
        display: flex;
-       display: flex;
        width: 100%;
+       letter-spacing: 1px;
    }
    .Pcards>a{
        display: flex;
@@ -61,4 +64,18 @@
        color: rgb(100, 156, 208);
        transition: color 0.3s;
        background-color: rgb(54, 50, 50);
+   }
+   @media screen and (width<580px) {
+    .Pcards >h1{
+        font-size: 28px;
+    }
+   }
+   @media screen and (width<540px) {
+    .Pcards >h1{
+        font-size: 25px;
+    }
+    .Pcards{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
    }
