@@ -103,9 +103,11 @@
 }
 .qlink1{
   margin-right: 15px;
+  font-family: 'Noto Sans Telugu';
 }
 .qlink2{
   margin-left: 15px;
+  font-family: 'Noto Sans Telugu';
 }
 .qlink1 >p >a,.qlink2>p>a{
   text-decoration: none;
