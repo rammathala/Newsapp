@@ -8,7 +8,7 @@ function Po({title,image,desc,stamp,id}) {
 
   return (
     <>
-    <Link to={'Political/'+ id}>
+    <Link to={'రాజకీయం/'+ id}>
     <div className='card' >
     <div className='image'>
          <img src={image}/>
