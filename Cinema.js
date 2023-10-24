@@ -14,6 +14,7 @@ function Cinema() {
          querySnapshot.docs.map((doc)=>({
            id:doc.id,
            title:doc.data().title,
+           subtitle:doc.data().Stitle,
            image: doc.data().image,
            desc: doc.data().description,
            artlink:doc.data().artlink,
@@ -26,14 +27,14 @@ function Cinema() {
   return (
     <div className='Polihome1'>
     <div className='Poliindex'>
-         <p>PCinema</p>
-        <Link  to={'/Cinemas'}>More</Link>
+         <p>చిత్ర సీమ</p>
+        <Link  to={'/చిత్ర సీమ'}>More</Link>
     </div>
    
     <div className='Polihome'>
     {
       cini.map(po=>(
-        <Ci id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks}/>
+        <Ci id={po.id} title={po.title} stitle={po.subtitle} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks}/>
       ))
     }
     </div>
