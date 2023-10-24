@@ -15,6 +15,7 @@ function Education() {
            id:doc.id,
            title:doc.data().title,
            image: doc.data().image,
+           subtitle:doc.data().Stitle,
            desc: doc.data().description,
            artlink:doc.data().artlink,
            date:doc.data().date
@@ -26,14 +27,14 @@ function Education() {
   return (
     <div className='Polihome1'>
     <div className='Poliindex'>
-         <p>Education</p>
-         <Link  to={'/Education'}>More</Link>
+         <p>విద్య</p>
+         <Link  to={'/విద్య'}>More</Link>
     </div>
    
     <div className='Polihome'>
     {
       edu.map(po=>(
-        <Eo id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks}/>
+        <Eo id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks} stitle={po.subtitle}/>
       ))
     }
     
