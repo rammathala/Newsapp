@@ -26,7 +26,7 @@ function Footer() {
              <div className='cright'>
              <h3>SAGAR SAKSHI</h3>
              <span><MailIcon/><a href='mailto:saagarasakshi@gmail.com'> saagarasakshi@gmail.com</a></span>
-             <span><CallIcon/><p className='canu'> +91 98489 45131</p></span>
+             <span><CallIcon/><p className='canu'> +91 81255 88131</p></span>
              <span><PlaceIcon/><p>Kakinada</p></span>
              </div>
               
@@ -37,21 +37,21 @@ function Footer() {
                 <p>Quick links</p>
                 <div className='qlinks'>
                 <div className='qlink1'><p><a href='/'>Home</a></p>
-                <p><a href='/Political'>Political</a></p>
-                <p><a href='/Education'>education</a></p>
-                <p><a href='/Agriculture'>Agriculture</a></p>
-                <p><a href='/Cinemas'>Cinema</a></p></div>
+                <p><a href='/రాజకీయం'>రాజకీయం</a></p>
+                <p><a href='/విద్య'>విద్య</a></p>
+                <p><a href='/వ్యవసాయం'>వ్యవసాయం</a></p>
+                <p><a href='/చిత్ర సీమ'>చిత్ర సీమ</a></p></div>
                 <div className='qlink2'>
-                <p><a href='/Sports'>sports</a></p>
-                <p><a href='/Local'>local</a></p>
-                <p><a href='/Business'>business</a></p>
-                <p><a href='/Cultural'>culture</a></p>
+                <p><a href='/క్రీడలు'>క్రీడలు</a></p>
+                <p><a href='/స్థానిక వార్తలు'>స్థానిక వార్తలు</a></p>
+                <p><a href='/వ్యాపారం'>వ్యాపారం</a></p>
+                <p><a href='/సాంస్కృతి'>సాంస్కృతి</a></p>
                 </div>
                 </div>
                 </div>  
             </div>
             <div className='copyr'>
-              <p className='p1'>Copyrights &copy; Sagar sakshi 2023</p>
+              <p className='p1'>Copyrights &copy; Saagara Sakshi 2023</p>
               <p className='p2'>||</p>
               <p className='p3'> Developer</p>
               <div class="tooltip">
