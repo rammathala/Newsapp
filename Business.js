@@ -14,6 +14,7 @@ function Business() {
          querySnapshot.docs.map((doc)=>({
            id:doc.id,
            title:doc.data().title,
+           subtitle:doc.data().Stitle,
            image: doc.data().image,
            desc: doc.data().description,
            artlink:doc.data().links,
@@ -26,14 +27,14 @@ function Business() {
   return (
     <div className='Polihome1'>
     <div className='Poliindex'>
-         <p>Business</p>
-         <Link  to={'/Business'}>More</Link>
+         <p>వ్యాపారం</p>
+         <Link  to={'/వ్యాపారం'}>More</Link>
     </div>
    
     <div className='Polihome'>
     {
       busi.map(po=>(
-        <Bo id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks}/>
+        <Bo id={po.id} stitle={po.subtitle} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks}/>
       ))
     }
     
