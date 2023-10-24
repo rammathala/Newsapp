@@ -15,6 +15,7 @@ function Polihome() {
             querySnapshot.docs.map((doc)=>({
               id:doc.id,
               title:doc.data().Ntitle,
+              subtitle:doc.data().Stitle,
               image: doc.data().image,
               desc: doc.data().Description,
               artlink:doc.data().links,
@@ -27,15 +28,15 @@ function Polihome() {
   return (
     <div className='Polihome1'>
     <div className='Poliindex'>
-         <p>Political</p>
-         <Link  to={'/Political'}>More</Link>
+         <p>రాజకీయం</p>
+         <Link  to={'/రాజకీయం'}>More</Link>
     </div>
      
     <div className='Polihome'>
       {
           poli.map(po=>
                (
-               <Po id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks}/>
+               <Po id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks} stitle={po.subtitle}/>
                )
           )
       }
