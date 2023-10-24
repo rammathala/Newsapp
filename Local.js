@@ -14,6 +14,7 @@ function Local() {
          querySnapshot.docs.map((doc)=>({
            id:doc.id,
            title:doc.data().title,
+           subtitle:doc.data().Stitle,
            image: doc.data().image,
            desc: doc.data().description,
            artlink:doc.data().artlink,
@@ -26,15 +27,15 @@ function Local() {
   return (
     <div className='Polihome1'>
     <div className='Poliindex'>
-         <p>Local</p>
-         <Link to={'/Local'}>More</Link>
+         <p>స్థానిక వార్తలు</p>
+         <Link to={'/స్థానిక వార్తలు'}>More</Link>
     </div>
    
     <div className='Polihome'>
    
     {
       lo.map(po=>(
-        <Lo id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks}/>
+        <Lo id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks} stitle={po.subtitle}/>
       ))
     }
     </div>
