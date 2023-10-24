@@ -29,22 +29,22 @@ function App() {
       <Header/>
     <Routes>
             <Route  path="/" element={<News/>}/>
-            <Route  path="/Political" element={<Politicalpage/>}/>
-            <Route  path="/Sports" element={<Sportspage/>}/>
-            <Route  path="/Education" element={<Educationpage/>}/>
-            <Route  path="/Cinemas" element={<Cinemapage/>}/>
-            <Route  path="/Cultural" element={<Culturepage/>}/>
-            <Route  path="/Agriculture" element={<Agriculturepage/>}/>
-            <Route  path="/Business" element={<Businesspage/>}/>
-            <Route  path="/Local" element={<Localpage/>}/>
-            <Route  path="/Political/:id" element={<Politicaldescription/>}  />
-            <Route  path="/Sports/:id" element={<Sportsdesc/>}/>
-            <Route  path="/Education/:id" element={<Educationdesc/>}/>
-            <Route  path="/Cinemas/:id" element={<Cinemadesc/>} />
-            <Route  path="/Cultural/:id" element={<Culturedesc/>}/>
-            <Route  path="/Agriculture/:id" element={<Agridesc/>} />
-            <Route  path="/Business/:id" element={<Businessdesc/>} />
-            <Route  path="/Local/:id" element={<Localdesc/>} />
+            <Route  path="/రాజకీయం" element={<Politicalpage/>}/>
+            <Route  path="/క్రీడలు" element={<Sportspage/>}/>
+            <Route  path="/విద్య" element={<Educationpage/>}/>
+            <Route  path="/చిత్ర సీమ" element={<Cinemapage/>}/>
+            <Route  path="/సాంస్కృతి" element={<Culturepage/>}/>
+            <Route  path="/వ్యవసాయం" element={<Agriculturepage/>}/>
+            <Route  path="/వ్యాపారం" element={<Businesspage/>}/>
+            <Route  path="/స్థానిక వార్తలు" element={<Localpage/>}/>
+            <Route  path="/రాజకీయం/:id" element={<Politicaldescription/>}  />
+            <Route  path="/క్రీడలు/:id" element={<Sportsdesc/>}/>
+            <Route  path="/విద్య/:id" element={<Educationdesc/>}/>
+            <Route  path="/చిత్ర సీమ/:id" element={<Cinemadesc/>} />
+            <Route  path="/సాంస్కృతి/:id" element={<Culturedesc/>}/>
+            <Route  path="/వ్యవసాయం/:id" element={<Agridesc/>} />
+            <Route  path="/వ్యాపారం/:id" element={<Businessdesc/>} />
+            <Route  path="/స్థానిక వార్తలు/:id" element={<Localdesc/>} />
       </Routes>
       <Footer/>
    </BrowserRouter>
