@@ -14,6 +14,7 @@ function Sports() {
          querySnapshot.docs.map((doc)=>({
            id:doc.id,
            title:doc.data().title,
+           subtitle:doc.data().Stitle,
            image: doc.data().image,
            desc: doc.data().description,
            artlink:doc.data().artlink,
@@ -26,15 +27,15 @@ function Sports() {
   return (
     <div className='Polihome1'>
     <div className='Poliindex'>
-         <p>Sports</p>
-         <Link  to={'/Sports'}>More</Link>
+         <p>క్రీడలు</p>
+         <Link  to={'/క్రీడలు'}>More</Link>
     </div>
    
     <div className='Polihome'>
    
     {
       spo.map(po=>(
-        <So id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks}/>
+        <So id={po.id} title={po.title} image={po.image} desc={po.desc} stamp={po.date} links={po.artlinks} stitle={po.subtitle}/>
       ))
     }
     </div>
