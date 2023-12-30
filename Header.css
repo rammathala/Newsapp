@@ -35,6 +35,7 @@
     text-decoration: none;
     color: black;
     padding: 7px 15px;
+    margin: 0 5px;
 }
 .Navs >a:hover{
     background-color: rgb(92, 90, 90);

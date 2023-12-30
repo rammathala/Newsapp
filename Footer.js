@@ -42,6 +42,7 @@ function Footer() {
                 <p><a href='/వ్యవసాయం'>వ్యవసాయం</a></p>
                 <p><a href='/చిత్ర సీమ'>చిత్ర సీమ</a></p></div>
                 <div className='qlink2'>
+                <p><a href='/newspdf'>PDF's</a></p>
                 <p><a href='/క్రీడలు'>క్రీడలు</a></p>
                 <p><a href='/స్థానిక వార్తలు'>స్థానిక వార్తలు</a></p>
                 <p><a href='/వ్యాపారం'>వ్యాపారం</a></p>

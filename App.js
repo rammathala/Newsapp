@@ -21,6 +21,7 @@ import Footer from './Footer';
 import Header from './Header';
 import News from './News';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import Viewpdf from './Viewpdf';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
             <Route  path="/వ్యవసాయం/:id" element={<Agridesc/>} />
             <Route  path="/వ్యాపారం/:id" element={<Businessdesc/>} />
             <Route  path="/స్థానిక వార్తలు/:id" element={<Localdesc/>} />
+            <Route  path="/newspdf" element={<Viewpdf/>} />
       </Routes>
       <Footer/>
    </BrowserRouter>

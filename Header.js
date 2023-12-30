@@ -11,6 +11,7 @@ function Header() {
      <img className='slo'src={logo} alt='Logo'/>
       </div>
       <div className='Navs'>
+      <NavLink to={'/newspdf'}>News PDF</NavLink>
       <NavLink to={'/'}>Home</NavLink>
       </div>
       </div>
